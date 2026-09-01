@@ -1,0 +1,67 @@
+order_id,settlement_id,confidence,reason
+ORD1041,STL1033,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1024,STL1021,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1017,STL1014,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1021,STL1018,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1059,STL1044,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1060,STL1045,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1029,STL1024,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1012,STL1010,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1008,STL1007,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1003,STL1003,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1007,STL1006,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1019,STL1016,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1039,STL1031,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1056,STL1043,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1033,STL1026,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1036,STL1029,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1043,STL1035,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1053,STL1041,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1011,STL1009,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1013,STL1011,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1040,STL1032,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1016,STL1013,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1048,STL1037,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1062,STL1046,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1052,STL1040,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1020,STL1017,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1023,STL1020,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1001,STL1001,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1031,STL1025,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1037,STL1030,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1050,STL1038,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1004,STL1004,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1054,STL1042,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1035,STL1028,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1022,STL1019,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1014,STL1012,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1025,STL1022,HIGH,Exact transaction ID match in settlement reference; amount matches expected fee-adjusted total.
+ORD1044,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1028,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1006,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1047,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1057,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1055,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1046,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1015,STL1047,HIGH,Part of batched settlement STL1047 (8 orders bundled); combined amount matches expected total.
+ORD1026,STL1023,MEDIUM,Reference note is a partial/corrupted match to transaction ID (similarity 92%); amount and settlement date are consistent with this order.
+ORD1018,STL1015,MEDIUM,Reference note is a partial/corrupted match to transaction ID (similarity 67%); amount and settlement date are consistent with this order.
+ORD1034,STL1027,MEDIUM,Reference note is a partial/corrupted match to transaction ID (similarity 92%); amount and settlement date are consistent with this order.
+ORD1005,STL1005,MEDIUM,Reference note is a partial/corrupted match to transaction ID (similarity 62%); amount and settlement date are consistent with this order.
+ORD1045,STL1036,MEDIUM,Reference note is a partial/corrupted match to transaction ID (similarity 92%); amount and settlement date are consistent with this order.
+ORD1051,STL1039,LOW,No usable reference on either side. Matched purely on fee-adjusted amount + plausible settlement date window (single unambiguous candidate).
+ORD1042,STL1034,LOW,No usable reference on either side. Matched purely on fee-adjusted amount + plausible settlement date window (single unambiguous candidate).
+ORD1002,STL1002,LOW,No usable reference on either side. Matched purely on fee-adjusted amount + plausible settlement date window (single unambiguous candidate).
+ORD1010,STL1008,LOW,No usable reference on either side. Matched purely on fee-adjusted amount + plausible settlement date window (single unambiguous candidate).
+ORD1061,,EXCEPTION,"No settlement found matching this order by ID, fuzzy reference, or amount/date proximity. Possibly missing/delayed settlement."
+ORD1027,,EXCEPTION,"No settlement found matching this order by ID, fuzzy reference, or amount/date proximity. Possibly missing/delayed settlement."
+ORD1063,,EXCEPTION,"No settlement found matching this order by ID, fuzzy reference, or amount/date proximity. Possibly missing/delayed settlement."
+,STL1048,EXCEPTION,Settlement credit has no corresponding order in our records (orphan settlement) -- possible data error or unrecorded sale.
+,STL1050,EXCEPTION,Settlement credit has no corresponding order in our records (orphan settlement) -- possible data error or unrecorded sale.
+,STL1049,EXCEPTION,Settlement credit has no corresponding order in our records (orphan settlement) -- possible data error or unrecorded sale.
+ORD1032,,EXCLUDED,Refunded -- correctly has no settlement.
+ORD1058,,EXCLUDED,Refunded -- correctly has no settlement.
+ORD1030,,EXCLUDED,Refunded -- correctly has no settlement.
+ORD1049,,EXCLUDED,Failed payment -- correctly has no settlement.
+ORD1009,,EXCLUDED,Failed payment -- correctly has no settlement.
+ORD1038,,EXCLUDED,Failed payment -- correctly has no settlement.
